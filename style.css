@@ -1,0 +1,146 @@
+
+html {
+  width: 100%
+  max-width:960px;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url("images/mainScreen.png");
+  opacity: 0.85;
+  filter: alpha(opacity= 85); /* For IE8 and earlier */
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Belleza', sans-serif;
+}
+
+.row {
+  margin-bottom: 5px;
+}
+
+.btn-danger {
+  margin-top: 10%;
+  background-color: red;
+}
+
+#wrapper {
+  top: 100px;
+  right: 50px;
+  position: absolute;
+}
+
+.gamePlayScreen {
+  visibility; hidden;
+}
+
+
+
+
+
+
+
+#box-wrapper {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 40px;
+  margin: 0 none;
+  text-shadow:
+  -1px -1px 0 #1296FF,
+  1px -1px 0 #1296FF,
+  -1px 1px 0 #1296FF,
+  1px 1px 0 #1296FF;
+}
+
+
+.heading {
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: transparent;
+  color: #fff;
+  -1px -1px 0 #F4DC10,
+  -1px -1px 0 #F4DC10,
+  -1px -1px 0 #F4DC10,
+  -1px -1px 0 #F4DC10,
+}
+
+/*.character-btn- {
+    padding:10px;
+    background-color: transparent;
+    border: 1px solid #F4DC10;
+    margin: 0;
+    height:100px;
+    width:120px;
+
+}*/
+
+.thumbnail {
+    border: 2px solid #F4DC10;
+    box-shadow: none;
+    width: 140px;
+    height: 120px;
+    overflow: auto;
+    background: transparent;
+}
+
+.thumbnail img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#gameTitle {
+  background-color: #931012;
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+p,
+#currentTally {
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+  -1px -1px 0 #000,
+  -1px -1px 0 #000,
+  -1px -1px 0 #000,
+  -1px -1px 0 #000,
+}
+
+ #last {
+  margin-bottom: 5%;
+ } 
+
+ #numMatchTo {
+  background-color: #33A412;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  padding-top: 0;
+ }
+
+ #currentTally {
+  background-color: #1DC1F3;
+ }
+
+.userScoreTitle,
+#userTotalScore {
+  padding: 0 20px 0 20px;
+  background-color: #1DB1AD;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.thumbnail {
+  max-width: 120px;
+  width: 100%;
+  height: 100%;
+  padding:10px;
+}
+
+#numMatchTo {
+  margin-bottom: 5px;
+}

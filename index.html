@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Bootstrap Normalize CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+        <!-- link to my css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- google font -->
+        <style>
+        @import url('https://fonts.googleapis.com/css?family=Belleza');
+        </style>
+        <!-- javaScript -->
+        <script data-require="jquery@*" data-semver="3.2.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- my sound jQuery sheet  -->
+        <script src="soundClips.js"></script>
+        <!-- my jQuery sheet  -->
+        <script src="jQueryGame.js"></script>
+        <title>Star Wars Game</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class= "panel-body">
+                        <audio id="my_audio" loop="loop" src="audio/gameThemeMusic.mp3"></audio>
+                        <button type="button" class="btn btn-danger" id="gameStart">Start Game</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                        <div class="col-md-7">
+                            <div class= "panel-body heading">
+                                <h2>May the Force by With You!</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        <div class="gamePlayScreen">
+       <div class="row">
+           <div class="col-md-1"></div>
+       </div>
+        <div class="row">
+            <div class="col-md-2">
+            <button hef='#' class="thumbnail">
+            <img src= "images/character-1.png" alt="Luke SkyWalker" height="120px" width="140px">
+            </button>
+        </div>
+        
+        <div class="col-md-2">
+            <button hef='#' class="thumbnail">
+            <img src="images/character-2.png" alt="Princess Leia" height="120px" width="140px">
+            </button>
+        </div>
+
+        <div class="col-md-2">
+            <button hef='#' class="thumbnail">
+            <img src="images/character-3.png" alt="Yoda" height="120px" width="140px">
+            </button>
+        </div>
+
+        <div class="col-md-2">
+            <button hef='#' class="thumbnail"><img src="images/chracter-4.png" alt="Darth Vadar" height="120px" width="140px">
+            </button>
+        </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-offset-1 col-md-2 col-md-offset-6">
+                <div class= "panel-body" id="currentTally">
+                <h3>Wins: <span id="wins"> </span></h3>
+                <h3>Losses: <span id="losses"> </span></h3>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div class="row">
+            <div class="col-md-4 ">
+                <div class= "panel-body userScoreTitle">
+                    <h2>Your total score is:</h2>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4 grow">
+                <div class= "panel-body" id="userTotalScore">
+                <h2 id="userTotal"><span id="userScore"></span></h2>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
